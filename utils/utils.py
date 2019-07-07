@@ -46,9 +46,24 @@ def batch(iterable, batch_size):
 def split_train_val(dataset, val_percent=0.05):
     dataset = list(dataset)
     length = len(dataset)
-    n = int(length * val_percent)
-    random.shuffle(dataset)
-    return {'train': dataset[:-n], 'val': dataset[-n:]}
+    iddataset = {}
+    # n = int(length * val_percent)
+    # random.shuffle(dataset)
+    # return {'train': dataset[:-n], 'val': dataset[-n:]}
+    iddataset['train'] = []
+    iddataset['val'] = []
+    iddataset['test'] = []
+    for (id,i) in dataset:
+        print(id,i)
+        if id == '.DS_S':
+            continue
+        elif id.split('_')[-3] + '_' +  id.split('_')[-2] in ['784_5', '766_8', '842_17']:
+            iddataset['test'].append((id,i))
+        elif id.split('_')[-3] + '_' +  id.split('_')[-2] in ['783_5', '766_5', '842_12']:
+            iddataset['val'].append((id,i))
+        else:
+            iddataset['train'].append((id,i))
+    return iddataset
 
 
 def normalize(x):
