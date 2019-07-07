@@ -11,6 +11,7 @@ from torch import optim
 from eval import eval_net
 from unet import UNet
 from utils import get_ids, split_ids, split_train_val, get_imgs_and_masks, batch
+import ipdb
 
 def train_net(net,
               epochs=5,
@@ -19,10 +20,10 @@ def train_net(net,
               val_percent=0.05,
               save_cp=True,
               gpu=False,
-              img_scale=0.5):
+              img_scale=1):
 
-    dir_img = 'data/train/'
-    dir_mask = 'data/train_masks/'
+    dir_img = 'data/image/'
+    dir_mask = 'data/label/'
     dir_checkpoint = 'checkpoints/'
 
     ids = get_ids(dir_img)
@@ -37,10 +38,11 @@ def train_net(net,
         Learning rate: {}
         Training size: {}
         Validation size: {}
+        Test size: {}
         Checkpoints: {}
         CUDA: {}
     '''.format(epochs, batch_size, lr, len(iddataset['train']),
-               len(iddataset['val']), str(save_cp), str(gpu)))
+               len(iddataset['val']), len(iddataset['test']), str(save_cp), str(gpu)))
 
     N_train = len(iddataset['train'])
 
@@ -112,7 +114,7 @@ def get_args():
     parser.add_option('-c', '--load', dest='load',
                       default=False, help='load file model')
     parser.add_option('-s', '--scale', dest='scale', type='float',
-                      default=0.5, help='downscaling factor of the images')
+                      default=1, help='downscaling factor of the images')
 
     (options, args) = parser.parse_args()
     return options
@@ -120,7 +122,8 @@ def get_args():
 if __name__ == '__main__':
     args = get_args()
 
-    net = UNet(n_channels=3, n_classes=1)
+
+    net = UNet(n_channels=1, n_classes=5)
 
     if args.load:
         net.load_state_dict(torch.load(args.load))
@@ -131,6 +134,7 @@ if __name__ == '__main__':
         # cudnn.benchmark = True # faster convolutions, but more memory
 
     try:
+        #ipdb.set_trace()
         train_net(net=net,
                   epochs=args.epochs,
                   batch_size=args.batchsize,

@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="52583d8d-a7de-491d-99fa-732a2093e01e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/test-volume.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/test/0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/test/0_predict.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/test/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/test/10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/test/10_predict.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/test/11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/test/11_predict.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/test/12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/test/12_predict.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/test/13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/test/13_predict.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/test/14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/test/14_predict.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/test/15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/test/15_predict.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/test/16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/test/16_predict.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/test/17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/test/17_predict.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/test/18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/test/18_predict.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/test/19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/test/19_predict.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/test/1_predict.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/test/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/test/20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/test/20_predict.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/test/21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/test/21_predict.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/test/22.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/test/22_predict.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/test/23.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/test/23_predict.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/test/24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/test/24_predict.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/test/25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/test/25_predict.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/test/26.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/test/26_predict.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/test/27.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/test/27_predict.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/test/28.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/test/28_predict.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/test/29.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/test/29_predict.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/test/2_predict.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/test/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/test/3_predict.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/test/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/test/4_predict.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/test/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/test/5_predict.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/test/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/test/6_predict.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/test/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/test/7_predict.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/test/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/test/8_predict.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/test/9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/test/9_predict.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train-labels.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train-volume.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/image_0_6144147.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/image_0_9312159.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/image_10_4725015.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/image_10_6658724.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/image_11_7305766.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/image_11_9762238.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/image_12_4186302.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/image_12_4486064.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/image_13_3027714.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/image_13_8372481.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/image_14_3602105.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/image_14_8620165.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/image_15_7797249.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/image_15_7856748.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/image_16_7404918.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/image_16_9397072.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/image_17_3911616.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/image_17_5677330.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/image_18_1533065.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/image_18_7670894.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/image_19_2043583.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/image_19_5366147.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/image_1_9323655.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/image_1_9353417.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/image_20_3601991.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/image_20_7053067.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/image_21_3732585.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/image_21_8506147.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/image_22_1880892.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/image_22_2808126.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/image_23_833746.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/image_23_9704808.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/image_24_7854683.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/image_24_7890115.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/image_25_32689.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/image_25_6277072.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/image_26_3928388.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/image_26_8717052.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/image_27_1760328.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/image_27_2952813.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/image_28_1813420.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/image_28_3604435.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/image_29_6023041.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/image_29_8617811.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/image_2_4218729.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/image_2_4242621.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/image_3_3355733.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/image_3_6123244.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/image_4_4272795.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/image_4_9292489.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/image_5_2683761.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/image_5_555502.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/image_6_5544540.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/image_6_5592345.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/image_7_236371.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/image_7_9599882.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/image_8_3936874.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/image_8_4974953.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/image_9_6936014.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/image_9_7535981.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/mask_0_6144147.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/mask_0_9312159.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/mask_10_4725015.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/mask_10_6658724.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/mask_11_7305766.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/mask_11_9762238.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/mask_12_4186302.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/mask_12_4486064.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/mask_13_3027714.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/mask_13_8372481.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/mask_14_3602105.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/mask_14_8620165.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/mask_15_7797249.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/mask_15_7856748.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/mask_16_7404918.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/mask_16_9397072.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/mask_17_3911616.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/mask_17_5677330.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/mask_18_1533065.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/mask_18_7670894.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/mask_19_2043583.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/mask_19_5366147.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/mask_1_9323655.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/mask_1_9353417.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/mask_20_3601991.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/mask_20_7053067.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/mask_21_3732585.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/mask_21_8506147.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/mask_22_1880892.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/mask_22_2808126.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/mask_23_833746.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/mask_23_9704808.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/mask_24_7854683.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/mask_24_7890115.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/mask_25_32689.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/mask_25_6277072.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/mask_26_3928388.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/mask_26_8717052.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/mask_27_1760328.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/mask_27_2952813.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/mask_28_1813420.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/mask_28_3604435.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/mask_29_6023041.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/mask_29_8617811.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/mask_2_4218729.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/mask_2_4242621.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/mask_3_3355733.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/mask_3_6123244.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/mask_4_4272795.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/mask_4_9292489.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/mask_5_2683761.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/mask_5_555502.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/mask_6_5544540.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/mask_6_5592345.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/mask_7_236371.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/mask_7_9599882.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/mask_8_3936874.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/mask_8_4974953.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/mask_9_6936014.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/aug/mask_9_7535981.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/image/0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/image/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/image/10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/image/11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/image/12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/image/13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/image/14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/image/15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/image/16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/image/17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/image/18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/image/19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/image/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/image/20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/image/21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/image/22.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/image/23.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/image/24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/image/25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/image/26.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/image/27.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/image/28.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/image/29.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/image/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/image/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/image/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/image/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/image/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/image/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/image/9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/label/0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/label/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/label/10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/label/11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/label/12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/label/13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/label/14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/label/15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/label/16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/label/17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/label/18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/label/19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/label/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/label/20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/label/21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/label/22.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/label/23.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/label/24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/label/25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/label/26.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/label/27.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/label/28.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/label/29.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/label/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/label/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/label/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/label/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/label/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/label/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/unet/data/membrane/train/label/9.png" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.8320675">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/train.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="632">
+                  <caret line="128" column="50" lean-forward="true" selection-start-line="128" selection-start-column="50" selection-end-line="128" selection-end-column="50" />
+                  <folding>
+                    <element signature="e#0#10#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/unet/unet_model.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="119">
+                  <caret line="9" column="36" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="36" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/predict.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="204">
+                  <caret line="127" column="40" selection-start-line="127" selection-start-column="40" selection-end-line="127" selection-end-column="40" />
+                  <folding>
+                    <element signature="e#0#15#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/utils/utils.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="646">
+                  <caret line="39" selection-start-line="39" selection-end-line="39" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$USER_HOME$/anaconda3/envs/pytorch_gpu/lib/python3.6/site-packages/torch/nn/modules/loss.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="280">
+                  <caret line="426" selection-start-line="426" selection-end-line="426" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/utils/load.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="357">
+                  <caret line="26" selection-start-line="26" selection-end-line="26" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/train.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="222">
+                  <caret line="65" column="7" selection-start-line="65" selection-start-column="7" selection-end-line="65" selection-end-column="7" />
+                  <folding>
+                    <element signature="e#0#10#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>prepare</find>
+      <find>channel</find>
+      <find>0.5</find>
+      <find>n_channels</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/utils/load.py" />
+        <option value="$PROJECT_DIR$/utils/utils.py" />
+        <option value="$PROJECT_DIR$/Pytorch-UNet/predict.py" />
+        <option value="$PROJECT_DIR$/Pytorch-UNet/train.py" />
+        <option value="$PROJECT_DIR$/predict.py" />
+        <option value="$PROJECT_DIR$/train.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/UNet.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/dictionaries/xiangyi.xml" />
+        <option value="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+        <option value="$PROJECT_DIR$/.idea/deployment.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="171" />
+    <option name="y" value="52" />
+    <option name="width" value="1920" />
+    <option name="height" value="994" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="UNet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UNet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UNet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UNet" type="462c0819:PsiDirectoryNode" />
+              <item name="unet" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="train" type="PythonConfigurationType" factoryName="Python">
+      <module name="UNet" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda3/envs/pytorch_gpu/bin/python3.6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="52583d8d-a7de-491d-99fa-732a2093e01e" name="Default Changelist" comment="" />
+      <created>1562391139647</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1562391139647</updated>
+      <workItem from="1562391140897" duration="6493000" />
+      <workItem from="1562471011452" duration="2642000" />
+      <workItem from="1562477944494" duration="13347000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="22482000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="171" y="52" width="1920" height="994" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="1" weight="0.25346112" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info active="true" id="Terminal" order="3" visible="true" weight="0.14696486" />
+      <window_info id="Debug" order="4" weight="0.2657082" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="1" />
+      <window_info anchor="bottom" id="Version Control" order="2" />
+      <window_info anchor="bottom" id="Python Console" order="3" weight="0.32992035" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.1569966" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="File Transfer" order="11" weight="0.18316269" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="3" />
+      <window_info anchor="right" id="SciView" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/train.py</url>
+          <line>63</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/UNet$train.coverage" NAME="train Coverage Results" MODIFIED="1562510514415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/submit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/pytorch_gpu/lib/python3.6/optparse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="1188" selection-start-line="1188" selection-end-line="1188" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/crf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pytorch-UNet/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-451">
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/data_vis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pytorch-UNet/utils/load.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pytorch-UNet/utils/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/pytorch_gpu/lib/python3.6/site-packages/numpy/core/fromnumeric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="574" selection-start-line="574" selection-end-line="574" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2019.1/python_stubs/1060208466/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="2952" column="8" selection-start-line="2952" selection-start-column="8" selection-end-line="2952" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/pytorch_gpu/lib/python3.6/site-packages/PIL/Image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="2568" selection-start-line="2568" selection-end-line="2568" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/unet/trainUnet.ipynb">
+      <provider selected="true" editor-type-id="jupyter-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/pytorch_gpu/lib/python3.6/site-packages/IPython/core/application.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="254" selection-start-line="254" selection-end-line="254" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/pytorch_gpu/lib/python3.6/site-packages/torch/nn/modules/loss.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="426" selection-start-line="426" selection-end-line="426" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/load.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unet/unet_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/predict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="127" column="40" selection-start-line="127" selection-start-column="40" selection-end-line="127" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="632">
+          <caret line="128" column="50" lean-forward="true" selection-start-line="128" selection-start-column="50" selection-end-line="128" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

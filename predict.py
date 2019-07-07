@@ -12,14 +12,15 @@ from utils import resize_and_crop, normalize, split_img_into_squares, hwc_to_chw
 from utils import plot_img_and_mask
 
 from torchvision import transforms
+import ipdb
 
 def predict_img(net,
                 full_img,
                 scale_factor=0.5,
                 out_threshold=0.5,
                 use_dense_crf=True,
-                use_gpu=False):
-
+                use_gpu=True):
+    ipdb.set_trace()
     net.eval()
     img_height = full_img.size[1]
     img_width = full_img.size[0]
@@ -34,7 +35,7 @@ def predict_img(net,
 
     X_left = torch.from_numpy(left_square).unsqueeze(0)
     X_right = torch.from_numpy(right_square).unsqueeze(0)
-    
+
     if use_gpu:
         X_left = X_left.cuda()
         X_right = X_right.cuda()
@@ -53,7 +54,7 @@ def predict_img(net,
                 transforms.ToTensor()
             ]
         )
-        
+
         left_probs = tf(left_probs.cpu())
         right_probs = tf(right_probs.cpu())
 
@@ -121,11 +122,12 @@ def mask_to_image(mask):
     return Image.fromarray((mask * 255).astype(np.uint8))
 
 if __name__ == "__main__":
+
     args = get_args()
     in_files = args.input
     out_files = get_output_filenames(args)
 
-    net = UNet(n_channels=3, n_classes=1)
+    net = UNet(n_channels=1, n_classes=5)
 
     print("Loading model {}".format(args.model))
 
